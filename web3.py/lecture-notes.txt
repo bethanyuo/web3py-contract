@@ -1,0 +1,6 @@
+Web3.py examples
+
+main.py 
+	* compile contract
+	* deploy contract
+	* play with the contract
