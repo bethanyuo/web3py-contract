@@ -29,7 +29,7 @@ Now that there is an instance of the contract, create a method for writing facts
 ```py
 w3.eth.enable_unaudited_features()
 ```
-Because the `contract owner` can only add facts to this contract, copy the private key and address. The address will be needed to easily calculate the `nonce`.<br/>
+Because the `contract owner` can only add facts to this contract, copy the private key and address. The address will be needed to easily calculate the `nonce`.
 We will create a simple transaction, which `adds a fact` to the contract, `sign it` with the private key and `send it`.
 
 Try adding a fact using another private key. _RESULT: `FAIL`_
