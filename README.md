@@ -18,7 +18,7 @@ w3 = Web3(HTTPProvider(PROVIDER))
  
 In order to get a contract instance of an already deployed contract, we will need its `address` and `application binary interface`. For this exercise’s purpose, deploy a simple contract storing an array of facts through `Remix IDE` using MetaMask Ropsten as a provider.
 
-If you do not have ETHt, use the MetaMask faucet: https://faucet.metamask.io/ 
+If you do not have ETHt, use the MetaMask faucet: https://faucet.metamask.io/.
 
 Then, copy its `address` and `ABI`, and create an instance of the contract. Json library will be needed to the decode the ABI:
 ```py
