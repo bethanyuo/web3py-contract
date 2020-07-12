@@ -37,7 +37,7 @@ Try adding a fact using another private key. _RESULT: `FAIL`_
 When reading from a Smart Contract, no wallets or private keys are needed. 
 First, create a method which gets a fact by a given `index`. Then, create a method which gets `how many facts` are stored in the contract.
 ```sh
-$ pip main.py
+$ python3 main.py
 Fact 1: The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 Stored facts in the contract: 1
 ```
