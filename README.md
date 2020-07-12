@@ -12,7 +12,7 @@ from web3 import Web3, HTTPProvider
 We will need `HTTPProvider` in order to create our connection to the Ropsten Testnet using `Infura.io`.
 Now let’s get the necessary Infura.io provider. Go to https://infura.io/ and copy the Ropsten URL.
 ```py
-PROVIDER = "https://rospten.infura.io/<ENDPOINT-URL>"
+PROVIDER = "https://rospten.infura.io/<ENDPOINT-ID>"
 w3 = Web3(HTTPProvider(PROVIDER))
 ```
  
